@@ -1,0 +1,24 @@
+.bg-post{
+    background-color: rgba(0,0,0, 0.441);
+    width: 100vw;
+    height: 100rem;
+    position: absolute;
+    padding: 1.5rem;
+    left: 0;
+    top: 0;
+}
+.bg-main-post{
+    background-color: var(--color-white-fixed);
+    color: var(--color-grey-1);
+    height: 51.25rem;
+    width: 90vw;
+    padding: 2.5rem, 1.5rem, 2.5rem, 1.5rem;
+    gap: 2rem;
+    position: absolute;
+    top: 3.625rem;
+    border-radius: 0.5rem;
+}
+
+.trans-post{
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}

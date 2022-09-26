@@ -1,11 +1,16 @@
 .navbar{
     background-color: var(--color-grey-1);
     padding: 1.75rem 0;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-items{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
+
 }
 
 .navbar-links{
@@ -14,10 +19,10 @@
 }
 
 .navbar-link{
-    background-color: transparent;
+    background-color: var(--color-grey-1);
     color: var(--color-white-fixed);
-    height: 2rem;
-    padding: 0.5rem;
+    height: 4.5rem;
+    padding: 1.25rem;
     border-radius: var(--radius-1);
     text-decoration: none;
     font-size: 0.875rem;

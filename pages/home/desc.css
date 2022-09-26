@@ -1,0 +1,44 @@
+@media(min-width:700px){
+
+    .w-screem{
+        width: 60%;
+    }
+    .aside-win{
+      width: 30%;
+      margin: 0 auto;
+      margin-top: 3rem;
+      position: sticky;
+      
+
+    }
+    .info-aside{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        flex-direction: column;
+        width: 100%;     
+          
+        
+    }
+    .overflow{
+        display: flex;
+        overflow-y: auto;
+    }
+    .flex-aside{
+        display: flex;
+    }
+    .position-aside{
+        position: relative;
+        left: 45rem;
+        top:-24rem;
+    }
+    .button-post{
+        background-color: var(--color-blue-1);
+        color: var(--color-white-fixed);
+    }
+
+    .go-top{
+        margin-top: -58rem;
+    }
+    
+}

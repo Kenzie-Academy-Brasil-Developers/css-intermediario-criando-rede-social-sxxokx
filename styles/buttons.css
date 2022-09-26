@@ -1,0 +1,49 @@
+.buttonsNav{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white-fixed);
+    font-size: 1rem;
+    
+}
+
+.button-post{
+    height: 2.375rem;
+    width: 4.313rem;
+    align-items: flex-end;
+    color: var(--color-grey-3);
+    border: 1px solid var(--color-grey-4) ;
+}
+.button-sugest{
+    background-color: transparent;
+    height: 28px;
+    width: 89px;
+    padding: 0 12px 0 12px;
+    gap: 10;
+    border: 1px solid var(--color-grey-3);
+    border-radius: 2px;
+    color: var(--color-grey-2);
+    font-size: 14px;
+    font-weight: 600;
+}
+.button-more{
+    height: 6rem;
+    background-color: var(--color-white-fixed) ;
+}
+
+.button-show{
+    height: 38px;
+    width: 92px;
+    background-color: var(--color-grey-1);
+    color: var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    border: none;
+    font-weight: 600;
+}
+.close-modal{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-3);
+    border: none;
+    border-radius: 100%;
+}

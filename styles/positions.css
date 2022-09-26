@@ -1,0 +1,64 @@
+.flex{
+    display: flex;
+}
+.itens-center{
+    align-items: center;
+}
+.just-center{
+    justify-content: center;
+}
+.flex-colum{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 1rem;
+}
+.row{
+    flex-direction: row;
+}
+.just-betw{
+    justify-content: space-between;
+}
+.itens-end{
+    align-items: flex-end;
+}
+.itens-start{
+    align-items: flex-start;
+}
+.just-start{
+    justify-content: flex-start;
+}
+.relative{
+    position: relative;
+}
+.absolut{
+    position: absolute;
+}
+.right{
+    right: 4.1rem;
+}
+.margin-top{
+    margin-top: 2rem;
+}
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+.ab-top{
+    bottom: 0px;
+    width: 100%;
+}
+
+.padding-post{
+    padding: 0 1.5rem;
+}
+.close-position{
+    position: relative;
+    bottom: 8rem;
+    left: 18rem;
+}
+.sec-header{
+    margin-top: 5rem;
+}

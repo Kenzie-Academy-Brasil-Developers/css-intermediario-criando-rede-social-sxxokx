@@ -5,12 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/navbar.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/positions.css">
+    <link rel="stylesheet" href="../../styles/backgrounds.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="desc.css" />
     <title>TechPosters - Home</title>
   </head>
-  <body>
-    <header></header>
-    <main></main>
+  <body id="main-container">
+    <header>
+      <nav class="navbar navbar-items navbar-link navbar-link:hover, .navbar-link.actived">
+        <img src="../../assets/img/logo.svg" alt="">
+        <button class="buttonsNav">Sair</button>
+      </nav>
+    </header>
+    <main class="paddin-2 w-screem ">
+      <section class="flex gap sec-header">
+        <div class="perfil">
+          <img src="../../assets/img/user1.svg" alt="">
+        </div>
+        <div>
+          <h2 class="color-name">Samuel Leão</h2>
+          <p class="color-ocup">Front end Enguineer</p>
+        </div>
+      </section>
+      <section class="margin-top ">
+        <div>
+          <form class="flex flex-colum gap itens-end">
+            <input class="input-title" type="text" placeholder="Digitar título do post">
+            <input class="input-descrip" type="text" placeholder="Digitar descrição do post">
+            <button class="button-post" type="submit">Postar</button>
+          </form>
+        </div>
+      </section>
+      <aside class="aside-win">
+        <div>
+          <h2 class="margin-bottom margin-top">Sugestões para você seguir</h2>
+        </div>
+        <section class="overflow flex gap info-aside overflow">
+          <section class="flex  gap card-sugest">
+            <div class="perfil ">
+              <img src="../../assets/img/user1.svg" alt="">
+            </div>
+            <div class="flex gap flex-colum itens-star just-start">
+              <h2 class="color-name title-sugest">Samuel Leão</h2>
+              <p class="color-ocup func-sugest">Front end Enguineer</p>
+              <div class="flex relative right">
+                <button class="button-sugest" type="submit">Seguir</button>
+              </div>              
+            </div>
+          </section>
+          <section class="flex  gap card-sugest">
+            <div class="perfil ">
+              <img src="../../assets/img/user1.svg" alt="">
+            </div>
+            <div class="flex gap flex-colum itens-star just-start">
+              <h2 class="color-name title-sugest">Samuel Leão</h2>
+              <p class="color-ocup func-sugest">Front end Enguineer</p>
+              <div class="flex relative right">
+                <button class="button-sugest" type="submit">Seguir</button>
+              </div>              
+            </div>
+          </section>
+          <section class="flex  gap card-sugest">
+            <div class="perfil ">
+              <img src="../../assets/img/user1.svg" alt="">
+            </div>
+            <div class="flex gap flex-colum itens-star just-start">
+              <h2 class="color-name title-sugest">Samuel Leão</h2>
+              <p class="color-ocup func-sugest">Front end Enguineer</p>
+              <div class="flex relative right">
+                <button class="button-sugest" type="submit">Seguir</button>
+              </div>              
+            </div>
+          </section>
+          <section class="flex  gap card-sugest">
+            <div class="perfil ">
+              <img src="../../assets/img/user1.svg" alt="">
+            </div>
+            <div class="flex gap flex-colum itens-star just-start">
+              <h2 class="color-name title-sugest">Samuel Leão</h2>
+              <p class="color-ocup func-sugest">Front end Enguineer</p>
+              <div class="flex relative right">
+                <button class="button-sugest" type="submit">Seguir</button>
+              </div>              
+            </div>
+          </section>
+        </section>
+      </aside>
+      <section>
+        <h2 class="margin-top">Posts</h2>
+        <div class="perfil margin-top">
+          <img src="../../assets/img/user1.svg" alt="">
+        </div>
+        <div class="flex gap flex-colum itens-star just-start">
+          <h2 class="color-name title-sugest">Samuel Leão</h2>
+          <p class="color-ocup func-sugest">Front end Enguineer</p>              
+        </div>
+        <div class="flex wrap gap margin-top flex-colum relative">
+          <h2>Empresa de Tecnologia da Informação abre vagas para programa de estágio</h2>
+          <p>A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.</p>
+          <div class="absolut ab-top button-more flex itens-center">
+            <button id="buttonMorePost" class=" button-show " type="submit">Abrir Post</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="/script/database/users.js"></script>
   <script src="/script/database/posts.js"></script>
